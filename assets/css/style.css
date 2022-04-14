@@ -104,6 +104,9 @@ a:hover {
   width: 100%;
   opacity: 0.7;
 }
+.autor-test .about-info {
+ margin-top: 50px;
+}
 
 .paralax-mf {
   position: relative;
@@ -136,6 +139,7 @@ a:hover {
 
 /*--/ Title s /--*/
 .title-s {
+  margin-top: 50px;
   font-weight: 600;
   color: #1e1e1e;
   font-size: 1.1rem;
@@ -943,15 +947,35 @@ a:hover {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+
 .testimonial-box {
   color: #fff;
   text-align: center;
+  border: 1px solid green;
 }
+
+.img_profile { 
+  float: left;
+
+}
+
 .testimonial-box .author-test {
   margin-top: 1rem;
 }
+.WorknEdu {
+  float: right;
+}
+.testimonial-box .about-info {
+  border:1px solid red; margin-top: 20px;
+}
+.testimonial-box .work_exp {
+  margin-top: 20px;text-align: left;border:1px solid red;
+}
+.testimonial-box .edu {
+  margin-top: 20px;border: 1px solid red; text-align: left;
+}
 .testimonial-box .author-test img {
-  margin: 0 auto;
+  margin: 0 auto;width: 400px;
 }
 .testimonial-box .author {
   color: #fff;
